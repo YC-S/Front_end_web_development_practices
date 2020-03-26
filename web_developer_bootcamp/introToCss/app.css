@@ -1,0 +1,20 @@
+body {
+  background: url("img/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: rgba(11,99,150,.3);
+  background:#ff1;
+  border: 8px dashed purple;
+}
+
+li {
+  color: rgba(11,99,150,1);
+  background: pink;
+}
+
+h4 {
+  color: rgba(11,99,150,.6);
+}

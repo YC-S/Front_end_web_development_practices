@@ -1,0 +1,25 @@
+body {
+  background: purple;
+}
+
+li {
+  background-color: chartreuse;
+  margin: 1em;
+  border: 1px red solid;
+}
+
+#special {
+  background: aqua;
+}
+
+.highlight {
+  background-color: bisque;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+li:nth-child(3) {
+  background-color: cornflowerblue;
+}
