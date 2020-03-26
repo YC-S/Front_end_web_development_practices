@@ -1,0 +1,137 @@
+body {
+  margin: 10% 15% 15% 10%;
+  color: gray;
+}
+#table-title {
+  text-align: center;
+}
+
+table, th, td{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+.container {
+  display: flex;
+}
+
+.container-left {
+  flex: 50%;
+}
+
+.container-right {
+  flex-direction: column;
+  flex: 50%;
+}
+
+.container-img {
+  flex: 80%;
+}
+
+.container-img-text {
+  flex: 20%;
+}
+
+#container-title {
+  font-style: italic;
+  color: gray;
+}
+
+.container p {
+  color: gray;
+}
+
+span {
+  color: orange;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  border: 0.5px solid #1a1111;
+  background-color: black;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 10px;
+  outline: .5px solid #989696;
+  border: 5px solid white;
+  display: block;
+}
+
+.square p {
+  color: white;
+}
+
+.container-img {
+  float: left;
+}
+
+.container-img-text a {
+  color: orange;
+  text-decoration: none;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.super {
+  vertical-align: super;
+}
+
+.container2 {
+  display: flex;
+}
+
+.container2-3 {
+  display: flex;
+}
+
+.container2-1 a{
+  text-decoration: none;
+}
+
+.container2-3 a{
+  text-decoration: none;
+  float: right;
+}
+
+.container2-1 {
+  flex: 25%;
+}
+
+.container2-2 {
+  flex: 25%;
+}
+
+.container2-3 {
+  flex: 50%;
+}
+
+.container2-3 p {
+  float: right;
+  margin-left: 10px;
+}
+
+.container2-2 li {
+  list-style-image: url(img/arrow_10.png);
+  margin-left: -20px;
+}
+
+.container2-2 hr {
+  margin-left: -36px;
+  margin-right: 30px;
+}
