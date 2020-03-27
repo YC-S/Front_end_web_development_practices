@@ -4,10 +4,19 @@ body {
 }
 
 header {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 header img {
   width: 15px;
   margin-top: 10px;
+}
+
+header li {
+  list-style: none;
+}
+
+section li {
+  list-style: none;
 }
