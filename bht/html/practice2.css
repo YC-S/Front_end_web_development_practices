@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  display: inline;
+  margin-left: .8em;
+  margin-right: .8em;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  color: gray;
+}
+
+nav {
+  background-color: rgb(95, 155, 233);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 1em 1em 0 0;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image {
+  display: block;
+}
+
+#gray-container {
+  background-color: gray;
+  display: flex;
+}
+
+.article-class img {
+  width: 20%;
+  float: left;
+}
+
+.article-class #first-p {
+  margin-bottom: 2em;
+}
+
+.article-class img {
+  margin-right: 1em;
+}
+
+.article-class {
+  width: 70%;
+  margin: 1em 1em 1em 2em;
+}
+
+.aside-class {
+  width: 30%;
+  margin: 1em 2em 1em 1em;
+}
+
+.blue-title {
+  color: blue;
+}
