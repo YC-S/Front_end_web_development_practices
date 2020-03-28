@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Basics</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <style>
+      .btn-danger {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bootstrap Basics</h1>
+      <button type="button" class="btn btn-danger btn-xs">click me!</button>
+      <button type="button" class="btn btn-success btn-xs active">
+        click me!
+      </button>
+      <button type="button" class="btn btn-success btn-xs disabled">
+        click me!
+      </button>
+      <a href="http://www.getbootstrap.com" class="btn btn-info btn-xs"
+        >Bootstrap Docs</a
+      >
+
+      <div class="jumbotron">
+        <h1>Hello, world</h1>
+        <p>
+          Bacon ipsum dolor amet doner salami shank capicola cow, kevin rump ham
+          ball tip landjaeger sirloin pork belly. Meatball buffalo ham cupim
+          burgdoggen cow. Sirloin meatball drumstick, chuck andouille turducken
+          t-bone capicola turkey rump pork chop buffalo. Chislic sausage ribeye
+          jerky doner. Chicken doner pork loin capicola prosciutto. Landjaeger
+          pork loin doner pig chicken, tongue bacon ball tip andouille beef
+          prosciutto shankle.
+        </p>
+        <button class="btn btn-success btn-lg">Learn more</button>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="Password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">File input</label>
+          <input type="file" id="exampleInputFile" />
+          <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+          <label> <input type="checkbox" /> Check me out </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
