@@ -1,0 +1,39 @@
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-size: 3em;
+  text-align: right;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-size: 5em;
+  text-decoration: line-through;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 3em;
+}
+
+span {
+  font-size: 2em;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+body {
+  font-size: 75%;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
