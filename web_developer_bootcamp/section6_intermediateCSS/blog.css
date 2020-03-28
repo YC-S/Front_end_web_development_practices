@@ -1,0 +1,32 @@
+body {
+  font-family: "Source Sans Pro";
+  border: 10px #bdc3c7 solid;
+}
+
+.blog {
+  margin: 3%;
+}
+
+.date {
+  color: #3498db;
+  display: inline;
+}
+
+.date p {
+  display: inline;
+  margin-right: 3px;
+}
+
+h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+}
+
+.quote {
+  border-left: #bdc3c7 3px solid;
+  padding-left: 1%;
+}
+
+hr {
+  margin: 2px 0 20px 0;
+}
