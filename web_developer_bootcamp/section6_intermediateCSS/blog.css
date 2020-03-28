@@ -10,6 +10,7 @@ body {
 .date {
   color: #3498db;
   display: inline;
+  text-transform: uppercase;
 }
 
 .date p {
