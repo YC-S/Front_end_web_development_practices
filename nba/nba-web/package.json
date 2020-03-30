@@ -3,14 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "antd": "^4.0.4",
-    "d3": "^5.15.0",
-    "d3-hexbin": "latest",
-    "d3-shotchart": "0.0.2",
-    "dayjs": "^1.8.23",
-    "lodash": "^4.17.15",
-    "nba": "^4.8.0",
-    "prop-types": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
