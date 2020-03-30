@@ -1,0 +1,22 @@
+table,th,tr,td {
+  font-size: 16px;
+  border: 1px solid black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding: 8px;
+  margin: auto;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+tr:nth-child(odd) {
+  background-color: ;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
