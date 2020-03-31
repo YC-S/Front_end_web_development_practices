@@ -2,7 +2,7 @@
  * @Author: Yuanchen
  * @Date: 2020-03-31 00:52:04
  * @Last Modified by: Yuanchen
- * @Last Modified time: 2020-03-31 09:54:52
+ * @Last Modified time: 2020-03-31 10:12:06
  */
 
 /*
@@ -199,3 +199,5 @@ switch (true) {
   default:
     console.log(firstName + " is a man");
 }
+
+// truthy

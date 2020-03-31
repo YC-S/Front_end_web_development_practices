@@ -1,0 +1,48 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  border: 2px solid rgba(148, 145, 145, 0.5);
+  padding: 1em;
+}
+
+#box2 {
+  flex-grow: 12;
+}
+
+#box1 {
+  flex-grow: 1;
+  border-top: ;
+}
+
+#box3 {
+  flex-grow: 3;
+}
+
+.flex-container-2 {
+  display: flex;
+  margin: 0 2em 0;
+}
+
+#box4,
+#box5,
+#box6 {
+  flex-grow: 1;
+}
+
+.flex-container-3 {
+  display: flex;
+  margin: 0 5em 0 0;
+}
+
+#box7,
+#box8,
+#box9 {
+  flex-grow: 1;
+}
+
+.flex-container-4 {
+  display: flex;
+  margin: 0 6em 0 0;
+}
