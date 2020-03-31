@@ -2,7 +2,7 @@
  * @Author: Yuanchen
  * @Date: 2020-03-31 00:52:04
  * @Last Modified by: Yuanchen
- * @Last Modified time: 2020-03-31 14:27:29
+ * @Last Modified time: 2020-03-31 15:17:32
  */
 
 /*
@@ -214,3 +214,88 @@ var height = 23;
 if (height == "23") {
   console.log("The == operator does type coercion!");
 }
+
+// function
+function calculateAge(birthYear) {
+  return 2020 - birthYear;
+}
+
+console.log(calculateAge(1993), calculateAge(1991), calculateAge(1989));
+
+function yearUntilRetirement(year, firstName) {
+  var age = calculateAge(year);
+  var retirement = 65 - age;
+  if (retirement <= 0) {
+    console.log(firstName + " is already retired.");
+  } else {
+    console.log(firstName + " retires in " + retirement + " years.");
+  }
+}
+
+yearUntilRetirement(1991, "John");
+yearUntilRetirement(1989, "Jane");
+yearUntilRetirement(1993, "Jay");
+
+// function statements and expression
+// function declaration
+// function whatDoYouDo(job, firstName) {
+
+// }
+var whatDoYouDo = function(job, firstName) {
+  switch (job) {
+    case "teacher":
+      return firstName + " teaches kids how to code.";
+    case "driver":
+      return firstName + " drives Uber in Chicago.";
+    case "designer":
+      return firstName + " designs web pages.";
+    default:
+      return firstName + " does something else.";
+  }
+};
+
+console.log(whatDoYouDo("teacher", "John"));
+console.log(whatDoYouDo("designer", "Jane"));
+console.log(whatDoYouDo("retired", "Mark"));
+
+// Arrays
+// Initialize new array
+var names = ["John", "Jane", "Mark", "Dan"];
+var years = new Array(1990, 1991, 1992, 1993);
+console.log(names[0]);
+console.log(names);
+console.log(names.length);
+console.log(names.reverse());
+
+// Mutate array data
+names[1] = "Ben";
+console.log(names);
+names[names.length] = "Mary";
+console.log(names);
+
+// Different data types
+var john = ["John", "Smith", 1991, "designer", false];
+console.log(john);
+john.push("blue");
+console.log(john);
+john.unshift("Mr.");
+console.log(john);
+
+john.pop();
+console.log(john);
+
+john.pop();
+console.log(john);
+
+john.shift();
+console.log(john);
+
+console.log(john.indexOf(1991));
+console.log(john.indexOf(23));
+
+var isDesigner =
+  john.indexOf("designer") === -1
+    ? "John is NOT a designer"
+    : "John IS a designer";
+
+console.log(isDesigner);
