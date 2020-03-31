@@ -2,7 +2,7 @@
  * @Author: Yuanchen
  * @Date: 2020-03-31 00:52:04
  * @Last Modified by: Yuanchen
- * @Last Modified time: 2020-03-31 10:12:06
+ * @Last Modified time: 2020-03-31 14:27:29
  */
 
 /*
@@ -201,3 +201,16 @@ switch (true) {
 }
 
 // truthy
+var height = false || 0 || NaN || undefined || null;
+
+if (height) {
+  console.log("variable is defined");
+} else {
+  console.log("variable has not been defined");
+}
+
+// equality operators
+var height = 23;
+if (height == "23") {
+  console.log("The == operator does type coercion!");
+}
