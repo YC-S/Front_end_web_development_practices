@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .flex-container {
+        display: flex;
+      }
+
+      img {
+        flex: 1;
+      }
+
+      @media screen and (max-width: 2700px) {
+        .container {
+          display: flex;
+        }
+        #left-column {
+          flex: 2;
+        }
+
+        #right-column {
+          flex: 1;
+        }
+      }
+      @media screen and (max-width: 1800px) {
+      }
+
+      @media screen and (max-width: 900px) {
+        .container {
+          display: block;
+        }
+      }
+
+      #left-column {
+        background-color: blue;
+      }
+
+      #right-column {
+        background-color: rgb(212, 139, 61);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <img src="img/img2.jpg" alt="merry-christmas" />
+    </div>
+    <div class="container">
+      <p id="left-column">
+        This is the left column and we are going to try and make it responsive.
+      </p>
+      <p id="right-column">
+        This is the right column and we are going to try and make it responsive.
+      </p>
+    </div>
+  </body>
+</html>

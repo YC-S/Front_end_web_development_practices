@@ -2,7 +2,7 @@
  * @Author: Yuanchen
  * @Date: 2020-03-31 00:52:04
  * @Last Modified by: Yuanchen
- * @Last Modified time: 2020-03-31 15:17:32
+ * @Last Modified time: 2020-03-31 20:50:04
  */
 
 /*
@@ -299,3 +299,37 @@ var isDesigner =
     : "John IS a designer";
 
 console.log(isDesigner);
+
+/**
+ * Objects and properties
+ * * Important
+ * ! Deprecated
+ * ? Should
+ * TODO: refactor
+ * @param myParam
+ */
+
+var john = {
+  firstName: "John",
+  lastName: "Smith",
+  birthYear: 1991,
+  family: ["Jane", "Mark", "Bob", "Emily"],
+  job: "teacher",
+  isMarried: false
+};
+
+console.log(john);
+console.log(john.firstName);
+console.log(john["lastName"]);
+var x = "birthYear";
+console.log(john[x]);
+
+john.job = "designer";
+john["isMarried"] = true;
+console.log(john);
+
+var jane = new Object();
+jane.name = "Jane";
+jane.birthYear = 1992;
+jane["lastName"] = "Smith";
+console.log(jane);
