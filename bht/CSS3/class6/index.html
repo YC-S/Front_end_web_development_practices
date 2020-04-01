@@ -7,17 +7,25 @@
     <style>
       * {
         box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
       }
 
       .flex-container {
         display: flex;
+        justify-content: center;
       }
 
       img {
         flex: 1;
       }
 
-      @media screen and (max-width: 2700px) {
+      @media screen and (max-width: 1009px) {
+        .container {
+          display: block;
+        }
+      }
+      @media screen and (max-width: 620px) {
         .container {
           display: flex;
         }
@@ -27,14 +35,6 @@
 
         #right-column {
           flex: 1;
-        }
-      }
-      @media screen and (max-width: 1800px) {
-      }
-
-      @media screen and (max-width: 900px) {
-        .container {
-          display: block;
         }
       }
 
