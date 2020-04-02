@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        counter-reset: section;
+      }
+
+      h1 {
+        counter-reset: subsection;
+      }
+
+      h1::before {
+        counter-increment: section;
+        content: counter(section) ") ";
+      }
+
+      h2::before {
+        counter-increment: subsection;
+        content: counter(section) "." counter(subsection) ") ";
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page">
+      <h1>Heading Title</h1>
+      <h2>Subheading Title</h2>
+      <h2>Subheading Title</h2>
+      <h1>Heading Title</h1>
+      <h2>Subheading Title</h2>
+      <h1>Heading Title</h1>
+    </div>
+  </body>
+</html>

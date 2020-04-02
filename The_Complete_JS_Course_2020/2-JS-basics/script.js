@@ -2,7 +2,7 @@
  * @Author: Yuanchen
  * @Date: 2020-03-31 00:52:04
  * @Last Modified by: Yuanchen
- * @Last Modified time: 2020-03-31 20:50:04
+ * @Last Modified time: 2020-04-02 12:15:35
  */
 
 /*
@@ -333,3 +333,20 @@ jane.name = "Jane";
 jane.birthYear = 1992;
 jane["lastName"] = "Smith";
 console.log(jane);
+
+// Objects and methods
+
+var john = {
+  firstName: "John",
+  lastName: "Smith",
+  birthYear: 1991,
+  family: ["Jane", "Mark", "Bob", "Emily"],
+  job: "teacher",
+  isMarried: false,
+  calcAge: function() {
+    this.age = 2020 - this.birthYear;
+  }
+};
+
+john.calcAge();
+console.log(john.age);
