@@ -2,7 +2,7 @@
  * @Author: Yuanchen
  * @Date: 2020-03-31 00:52:04
  * @Last Modified by: Yuanchen
- * @Last Modified time: 2020-04-02 12:15:35
+ * @Last Modified time: 2020-04-02 13:00:49
  */
 
 /*
@@ -350,3 +350,39 @@ var john = {
 
 john.calcAge();
 console.log(john.age);
+
+// Loops and iteration
+
+for (var i = 0; i < 10; i++) {
+  console.log(i);
+}
+
+var john = ["John", "Smith", 1990, "designer", false];
+for (var i = 0; i < john.length; i++) {
+  console.log(john[i]);
+}
+
+var i = 0;
+while (i < john.length) {
+  console.log(john[i]);
+  i++;
+}
+
+// continue and break statements
+console.log("-----------------------");
+for (var i = 0; i < john.length; i++) {
+  if (typeof john[i] !== "string") continue;
+  console.log(john[i]);
+}
+
+console.log("-----------------------");
+for (var i = 0; i < john.length; i++) {
+  if (typeof john[i] !== "string") break;
+  console.log(john[i]);
+}
+
+console.log("-----------------------");
+for (var i = john.length - 1; i >= 0; i--) {
+  if (typeof john[i] !== "string") continue;
+  console.log(john[i]);
+}
