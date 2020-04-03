@@ -12,3 +12,5 @@ console.log(chalk.blue("Hello World!"));
 console.log(chalk.green("Success!"));
 console.log(chalk.blue("Hello") + " World" + chalk.red("!"));
 console.log(chalk.blue.bgRed("Hot"));
+console.log(chalk.red.bold("Error!"));
+console.log(chalk.blue("test"));
