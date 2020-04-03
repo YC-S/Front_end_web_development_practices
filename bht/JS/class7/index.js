@@ -193,6 +193,12 @@ var b = a;
 
 var xx = [{ p: 123 }];
 var yy = xx.slice();
-xx.push({ x: 234 });
+xx[0].p = 12345;
 console.log(xx);
 console.log(yy);
+
+var aa = ["abc", "def"];
+var bb = aa.slice();
+aa[0] = "change";
+console.log(aa);
+console.log(bb);
