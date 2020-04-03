@@ -11,3 +11,4 @@ console.log(validator.isURL("www.google.com"));
 console.log(chalk.blue("Hello World!"));
 console.log(chalk.green("Success!"));
 console.log(chalk.blue("Hello") + " World" + chalk.red("!"));
+console.log(chalk.blue.bgRed("Hot"));
