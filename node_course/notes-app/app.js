@@ -1,3 +1,3 @@
-const fs = require("fs");
+const name = require("./utils.js");
 
-fs.writeFileSync("notes.txt", "My name is Yuanchen!");
+console.log(name);
