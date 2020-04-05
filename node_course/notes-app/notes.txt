@@ -1,9 +1,0 @@
-fd:1This is a file created by Node.js!
-This is a message appended synchronously.
-This is a message appended synchronously.
-This is a message appended synchronously.
-This is a message appended synchronously.
-This is a message appended synchronously.
-This is a message appended synchronously.
-This is a message appended synchronously.
-This is a message appended synchronously.
