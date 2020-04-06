@@ -23,3 +23,10 @@ W
 'frontend_crash_course/images/server.svg,9/1/9194d1e70fa39f0db75ed162619c5100cf33a087
 P
  frontend_crash_course/index.html,4/8/484ccccef9da975816d0682d848c8e55bbd6a547
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+O
+10daysofjavascript/day3Array.js,5/6/569a3725a5b7e8f55863e317ac37a0f1274c21e4
+M
+10daysofjavascript/day3Try.js,2/f/2ff7a280dbf4f1db02868606e34614fbcf1e7eae
