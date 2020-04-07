@@ -10,3 +10,23 @@ gen
 bootstrap4_practice/crash_course_bootstrap/bs4/src/assets/
 bootstrap4_practice/crash_course_bootstrap/bs4/src/css/
 bootstrap4_practice/crash_course_bootstrap/bs4/src/js/
+
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+/bht/JS/JavaScript1.pptx
+/bht/JS/Question.pptx
+/bht/JS/JavaScript2.pptx
+/bht/JS/Question1.pptx
+/bht/JS/question1.txt
