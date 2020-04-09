@@ -38,7 +38,15 @@ const loadNotes = function () {
   }
 };
 
+const removeNote = function (title) {
+  const notes = loadNotes();
+  const removingNotes = notes.filter(function (note) {
+    return note.title === title;
+  });
+};
+
 module.exports = {
   getNotes: getNotes,
   addNote: addNote,
+  removeNote: removeNote,
 };
