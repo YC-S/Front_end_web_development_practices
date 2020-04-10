@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="1">TEST</button>
+    <script>
+      let id1 = document.getElementById(1);
+      id1.addEventListener("click", function () {
+        console.log("Hello world");
+      });
+      let id2 = id1.cloneNode(true);
+      console.log(id2);
+      document.body.appendChild(id2);
+      console.log(typeof NodeList);
+      console.log(typeof HTMLCollection);
+    </script>
+  </body>
+</html>

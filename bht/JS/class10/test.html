@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="div-01">Here is div-01</div>
+    <div id="div-02">Here is div-02</div>
+
+    <script>
+      console.log(document);
+      let el = document.getElementById("div-01").nextSibling;
+      console.log(el.nextSibling);
+      console.log(el);
+      let i = 1;
+      console.log("Sibling of div-01:");
+      while (el) {
+        console.log(i + "." + el.nodeName);
+        el = el.nextSibling;
+        i++;
+      }
+      console.log(document.getElementById("div-01").childNodes);
+    </script>
+  </body>
+</html>
