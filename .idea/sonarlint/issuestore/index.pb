@@ -30,3 +30,5 @@ O
 10daysofjavascript/day3Array.js,5/6/569a3725a5b7e8f55863e317ac37a0f1274c21e4
 M
 10daysofjavascript/day3Try.js,2/f/2ff7a280dbf4f1db02868606e34614fbcf1e7eae
+\
+,javascript高级程序设计/chapter3/app.js,d/4/d4d88ab8f2d23ecb8ac8d0807798b01836d58304
