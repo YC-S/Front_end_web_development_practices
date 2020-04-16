@@ -32,3 +32,5 @@ M
 10daysofjavascript/day3Try.js,2/f/2ff7a280dbf4f1db02868606e34614fbcf1e7eae
 \
 ,javascript高级程序设计/chapter3/app.js,d/4/d4d88ab8f2d23ecb8ac8d0807798b01836d58304
+M
+es6入门/chapter1/.gitignore,3/a/3a442b02500630eb56b1ec14b411904f1b24c6af
