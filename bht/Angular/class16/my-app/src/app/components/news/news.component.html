@@ -1,3 +1,80 @@
 <app-header></app-header>
 <hr />
 <h2>{{ title }}</h2>
+<h3>{{ username }}</h3>
+<h4>{{ student }}</h4>
+<hr />
+<h6>{{ userInfo["userName"] }}</h6>
+
+<hr />
+<div>{{ message }}</div>
+
+<hr />
+<div title="这是一个div">
+  Hint
+</div>
+
+<hr />
+<div [title]="student">
+  张三
+</div>
+
+<hr />
+
+<div>
+  {{ content }}
+</div>
+
+<hr />
+
+<div [innerHTML]="content" class="red"></div>
+
+<hr />
+
+<h1>angular模版允许简单的运算</h1>
+
+<p>1+2={{ 1 + 2 }}</p>
+
+<hr />
+<h1>angular 里面的数据循环</h1>
+
+<ul>
+  <li *ngFor="let item of arr">
+    {{ item }}
+  </li>
+</ul>
+
+<hr />
+
+<ol>
+  <li *ngFor="let item of list">
+    {{ item }}
+  </li>
+</ol>
+
+<hr />
+
+<ul>
+  <li *ngFor="let item of items">
+    {{ item }}
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li *ngFor="let item of userList">{{ item.username }} --- {{ item.age }}</li>
+</ul>
+
+<hr />
+
+<ul>
+  <li *ngFor="let car of cars">
+    <h2>{{ car.brand }}</h2>
+    <ol>
+      <li *ngFor="let item of car.list">
+        <h3>{{ item.title }} -- {{ item.price }}</h3>
+      </li>
+    </ol>
+  </li>
+</ul>
