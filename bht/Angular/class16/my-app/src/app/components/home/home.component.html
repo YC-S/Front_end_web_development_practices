@@ -1,1 +1,50 @@
-<h2>这是一个home组件</h2>
+<h2>引入图片</h2>
+<img src="assets/images/credits.svg" alt="credits" />
+
+<img [src]="picUrl" alt="" />
+
+<h1>循环数据 显示数据的索引(key)</h1>
+
+<ul>
+  <li *ngFor="let item of list; let key = index">
+    {{ key }}---{{ item.title }}
+  </li>
+</ul>
+
+<h1>条件判断语句 *ngIF</h1>
+
+<div *ngIf="flag">
+  <img src="assets/images/like_filled.svg" alt="" />
+</div>
+
+<div *ngIf="!flag">
+  <img src="assets/images/like.svg" alt="" />
+</div>
+
+<ul>
+  <li *ngFor="let item of list; let key = index">
+    <span *ngIf="key == 1" class="red">{{ key }}---{{ item.title }}</span>
+    <span *ngIf="key != 1">{{ key }}---{{ item.title }}</span>
+  </li>
+</ul>
+
+<hr />
+
+<h1>条件判断语句*ngSwitch</h1>
+<div [ngSwitch]="orderStatus">
+  <div *ngSwitchCase="1">
+    表示已经支付
+  </div>
+  <div *ngSwitchCase="2">
+    表示支付并且确认订单
+  </div>
+  <div *ngSwitchCase="3">
+    表示已经发货
+  </div>
+  <div *ngSwitchCase="4">
+    表示已经收货
+  </div>
+  <div *ngSwitchDefault>
+    无效
+  </div>
+</div>
