@@ -48,3 +48,74 @@
     无效
   </div>
 </div>
+
+<hr />
+<h1>属性[ngClass],[ngStyle]</h1>
+
+<div class="red">
+  ngClass演示（不用dom改变class）
+</div>
+
+<div [ngClass]="{ blue: true }">
+  ngClass演示
+</div>
+
+<div [ngClass]="{ orange: flag, red: !flag }">
+  ngClass演示
+</div>
+
+<strong
+  >循环数组，让第一个元素的样式为red, 第二个元素为orange， 第三个为blue</strong
+>
+
+<ul>
+  <li
+    *ngFor="let item of list; let key = index"
+    [ngClass]="{ red: key == 0, orange: key == 1, blue: key == 2 }"
+  >
+    {{ key }}---{{ item.title }}
+  </li>
+</ul>
+
+<p style="color: red;">我是一个p标签</p>
+<p [ngStyle]="{ color: 'orange' }">我是一个p标签</p>
+<p [ngStyle]="{ color: attr }">我是一个p标签</p>
+
+<hr />
+<h1>管道</h1>
+<p>{{ today | date: "yyyy-MM--dd HH:mm:ss" }}</p>
+
+<hr />
+<h1>事件</h1>
+
+<strong>{{ title }}</strong>
+<hr />
+
+<button (click)="run()">执行事件</button>
+
+<hr />
+<button (click)="getData()">执行事件获取数据</button>
+
+<hr />
+<button (click)="setData()">执行事件改变数据</button>
+
+<hr />
+<button (click)="runEvent($event)">执行方法获取事件对象</button>
+
+<h1>表单事件 事件对象</h1>
+
+<!-- <input type="text" (keydown)="keyDown()" /> -->
+<span>keyDown</span>
+<input type="text" (keydown)="keyDown($event)" />
+<br />
+<span>keyUp</span>
+<input type="text" (keyup)="keyUp($event)" />
+
+<hr />
+<h1>双向数据绑定 MVVM 只是针对榜单</h1>
+<input type="text" [(ngModel)]="binding" /> {{ binding }}
+
+<br />
+<button (click)="changeBinding()">改变binding的值</button>
+<br />
+<button (click)="getBinding()">获取binding的值</button>
